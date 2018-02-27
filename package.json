@@ -15,10 +15,10 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/rebornix/vscode-vs-keybindings.git"
+        "url": "https://github.com/microsoft/vscode-vs-keybindings.git"
     },
     "bugs": {
-        "url": "https://github.com/rebornix/vscode-vs-keybindings/issues"
+        "url": "https://github.com/microsoft/vscode-vs-keybindings/issues"
     },
     "preview": true,
     "icon": "visualstudio-keyboard.png",
