@@ -1,0 +1,213 @@
+{
+    "name": "vs-keybindings",
+    "displayName": "Visual Studio Keymap",
+    "description": "Popular Visual Studio keybindings for VS Code.",
+    "version": "0.2.0",
+    "publisher": "ms-vscode",
+    "engines": {
+        "vscode": "^1.6.0"
+    },
+    "categories": [
+        "Keymaps"
+    ],
+    "keywords": [
+        "keymap"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rebornix/vscode-vs-keybindings.git"
+    },
+    "bugs": {
+        "url": "https://github.com/rebornix/vscode-vs-keybindings/issues"
+    },
+    "preview": true,
+    "icon": "visualstudio-keyboard.png",
+    "contributes": {
+        "keybindings": [
+            {
+                "key": "ctrl+shift+b",
+                "command": "workbench.action.tasks.build"
+            },
+            {
+                "key": "ctrl+b",
+                "command": "workbench.debug.viewlet.action.addFunctionBreakpointAction"
+            },
+            {
+                "key": "ctrl+shift+f9",
+                "command": "workbench.debug.viewlet.action.removeAllBreakpoints"
+            },
+            {
+                "key": "ctrl+shift+f5",
+                "command": "workbench.action.debug.restart",
+                "when": "inDebugMode"
+            },
+            {
+                "key": "ctrl+f10",
+                "command": "editor.debug.action.runToCursor",
+                "when": "inDebugMode"
+            },
+            {
+                "key": "ctrl+k ctrl+d",
+                "command": "editor.action.formatDocument"
+            },
+            {
+                "key": "ctrl+k ctrl+x",
+                "command": "insertSnippet"
+            },
+            {
+                "key": "ctrl+shift+l",
+                "command": "editor.action.deleteLines",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+l",
+                "command": "editor.action.clipboardCutAction",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+shift+g",
+                "command": "workbench.action.files.openFileFolder"
+            },
+            {
+                "key": "alt+f12",
+                "command": "editor.action.referenceSearch.trigger"
+            },
+            {
+                "key": "ctrl+y",
+                "command": "redo"
+            },
+            {
+                "key": "ctrl+w",
+                "command": "editor.action.addSelectionToNextFindMatch"
+            },
+            {
+                "key": "ctrl+alt+space",
+                "command": "editor.action.triggerSuggest",
+                "when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "alt+space",
+                "command": "undo"
+            },
+            {
+                "key": "ctrl+delete",
+                "command": "deleteWordEndRight",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+backspace",
+                "command": "deleteWordStartLeft",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+shift+s",
+                "command": "workbench.action.files.saveAll"
+            },
+            {
+                "key": "ctrl+alt+o",
+                "command": "workbench.action.output.toggleOutput"
+            },
+            {
+                "key": "ctrl+alt+l",
+                "command": "workbench.view.explorer"
+            },
+            {
+                "key": "ctrl+r ctrl+r",
+                "command": "editor.action.rename",
+                "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+r ctrl+w",
+                "command": "editor.action.toggleRenderWhitespace"
+            },
+            {
+                "key": "ctrl+k ctrl+m",
+                "command": "editor.foldAll",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+-",
+                "command": "workbench.action.navigateBack"
+            },
+            {
+                "key": "ctrl+shift+-",
+                "command": "workbench.action.navigateForward"
+            },
+            {
+                "key": "ctrl+,",
+                "command": "workbench.action.quickOpen"
+            },
+            {
+                "key": "shift+alt+down",
+                "command": "cursorColumnSelectDown",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "shift+alt+left",
+                "command": "cursorColumnSelectLeft",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "shift+alt+pagedown",
+                "command": "cursorColumnSelectPageDown",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "shift+alt+pageup",
+                "command": "cursorColumnSelectPageUp",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "shift+alt+right",
+                "command": "cursorColumnSelectRight",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "shift+alt+up",
+                "command": "cursorColumnSelectUp",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "shift+alt+enter",
+                "command": "workbench.action.toggleZenMode"
+            },
+            {
+                "key": "ctrl+f4",
+                "command": "workbench.action.closeActiveEditor"
+            },
+            {
+                "key": "ctrl+d",
+                "command": "editor.action.copyLinesDownAction"
+            },
+            {
+                "key": "ctrl+right",
+                "command": "cursorWordStartRight",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+shift+right",
+                "command": "cursorWordStartRightSelect",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+enter",
+                "command": "editor.action.insertLineBefore",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "shift+enter",
+                "command": "editor.action.insertLineAfter",
+                "when": "editorTextFocus && !editorReadonly"
+            }
+        ]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "devDependencies": {
+        "vscode": "^1.0.0"
+    },
+    "dependencies": {
+        "jsonfile": "^2.2.3"
+    }
+}
