@@ -198,6 +198,11 @@
                 "key": "shift+enter",
                 "command": "editor.action.insertLineAfter",
                 "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+delete",
+                "command": "deleteWordStartRight",
+                "when": "editorTextFocus && !editorReadonly"
             }
         ]
     },
