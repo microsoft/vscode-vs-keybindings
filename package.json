@@ -198,6 +198,46 @@
                 "key": "shift+enter",
                 "command": "editor.action.insertLineAfter",
                 "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "alt+a",
+                "command": "editor.action.replaceAll",
+                "when": "editorFocus && findWidgetVisible"
+            },
+            {
+                "key": "alt+a",
+                "command": "search.action.replaceAll",
+                "when": "replaceActive && searchViewletVisible && !findWidgetVisible"
+            },
+            {
+                "key": "alt+a",
+                "command": "search.action.replaceAllInFile",
+                "when": "fileMatchFocus && replaceActive && searchViewletVisible"
+            },
+            {
+                "key": "alt+a",
+                "command": "search.action.replaceAllInFolder",
+                "when": "folderMatchFocus && replaceActive && searchViewletVisible"
+            },
+            {
+                "key": "alt+r",
+                "command": "editor.action.replaceOne",
+                "when": "editorFocus && findWidgetVisible"
+            },
+            {
+                "key": "alt+r",
+                "command": "search.action.replace",
+                "when": "matchFocus && replaceActive && searchViewletVisible"
+            },
+            {
+                "key": "alt+e",
+                "command": "toggleSearchRegex",
+                "when": "searchInputBoxFocus && searchViewletVisible"
+            },
+            {
+                "key": "alt+e",
+                "command": "toggleFindRegex",
+                "when": "editorFocus"
             }
         ]
     },
