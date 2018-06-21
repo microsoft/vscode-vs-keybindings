@@ -25,8 +25,24 @@
     "contributes": {
         "keybindings": [
             {
+                "mac": "cmd+b",
                 "key": "ctrl+shift+b",
                 "command": "workbench.action.tasks.build"
+            },
+            {
+                "mac": "cmd+enter",
+                "command": "workbench.action.debug.start",
+                "when": "!inDebugMode"
+            },
+            {
+                "mac": "ctrl+shift+enter",
+                "command": "workbench.action.debug.stop",
+                "when": "inDebugMode"
+            },
+            {
+                "mac": "cmd+d",
+                "command": "editor.action.goToDeclaration",
+                "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
             },
             {
                 "key": "ctrl+b",
@@ -47,6 +63,7 @@
                 "when": "inDebugMode"
             },
             {
+                "mac": "ctrl+i",
                 "key": "ctrl+k ctrl+d",
                 "command": "editor.action.formatDocument"
             },
@@ -100,6 +117,7 @@
                 "when": "editorTextFocus && !editorReadonly"
             },
             {
+                "mac": "shift+cmd+s",
                 "key": "ctrl+shift+s",
                 "command": "workbench.action.files.saveAll"
             },
