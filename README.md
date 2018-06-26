@@ -15,9 +15,9 @@ VS Code does not implement all of the commands available in Visual Studio. If yo
 
 We may have missed a keyboard shortcut. If we did please help us out! It is very easy to make a PR. 
 
-1. Head over to our [GitHub repository](https://github.com/rebornix/vscode-vs-keybindings). 
-2. Open [`package.json`](https://github.com/rebornix/vscode-vs-keybindings/blob/master/package.json). 
-3. Add a JSON object to [`contributes.keybindings`](https://github.com/rebornix/vscode-vs-keybindings/blob/master/package.json#L26) as seen below. 
+1. Head over to our [GitHub repository](https://github.com/Microsoft/vscode-vs-keybindings). 
+2. Open [`package.json`](https://github.com/Microsoft/vscode-vs-keybindings/blob/master/package.json). 
+3. Add a JSON object to [`contributes.keybindings`](https://github.com/Microsoft/vscode-vs-keybindings/blob/master/package.json#L26) as seen below. 
 4. Open a pull request. 
 
 ```json
