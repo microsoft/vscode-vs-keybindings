@@ -198,6 +198,16 @@
                 "key": "shift+enter",
                 "command": "editor.action.insertLineAfter",
                 "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+shift+down",
+                "command": "editor.action.wordHighlight.next",
+                "when": "editorTextFocus && hasWordHighlights"
+            },
+            {
+                "key": "ctrl+shift+up",
+                "command": "editor.action.wordHighlight.prev",
+                "when": "editorTextFocus && hasWordHighlights"
             }
         ]
     },
