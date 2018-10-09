@@ -200,6 +200,16 @@
                 "when": "editorTextFocus && !editorReadonly"
             },
             {
+                "key": "ctrl+shift+down",
+                "command": "editor.action.wordHighlight.next",
+                "when": "editorTextFocus && hasWordHighlights"
+            },
+            {
+                "key": "ctrl+shift+up",
+                "command": "editor.action.wordHighlight.prev",
+                "when": "editorTextFocus && hasWordHighlights"
+            },
+            {
                 "key": "alt+a",
                 "command": "editor.action.replaceAll",
                 "when": "editorFocus && findWidgetVisible"
