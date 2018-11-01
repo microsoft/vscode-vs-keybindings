@@ -168,6 +168,36 @@
                 "when": "editorTextFocus"
             },
             {
+                "key": "left",
+                "command": "cancelSelection",
+                "when": "editorHasMultipleSelections && textInputFocus"
+            },
+            {
+                "key": "right",
+                "command": "cancelSelection",
+                "when": "editorHasMultipleSelections && textInputFocus"
+            },
+            {
+                "key": "up",
+                "command": "cancelSelection",
+                "when": "editorHasMultipleSelections && textInputFocus"
+            },
+            {
+                "key": "down",
+                "command": "cancelSelection",
+                "when": "editorHasMultipleSelections && textInputFocus"
+            },
+            {
+                "key": "pageup",
+                "command": "cancelSelection",
+                "when": "editorHasMultipleSelections && textInputFocus"
+            },
+            {
+                "key": "pagedown",
+                "command": "cancelSelection",
+                "when": "editorHasMultipleSelections && textInputFocus"
+            },
+            {
                 "key": "shift+alt+enter",
                 "command": "workbench.action.toggleZenMode"
             },
