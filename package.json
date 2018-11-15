@@ -15,7 +15,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/microsoft/vscode-vs-keybindings.git"
+        "url": "https://github.com/Microsoft/vscode-vs-keybindings.git"
     },
     "bugs": {
         "url": "https://github.com/microsoft/vscode-vs-keybindings/issues"
