@@ -121,10 +121,15 @@
                 "command": "editor.action.toggleRenderWhitespace"
             },
             {
-                "key": "ctrl+k ctrl+m",
+                "key": "ctrl+m ctrl+o",
                 "command": "editor.foldAll",
                 "when": "editorTextFocus"
             },
+			{
+				"key": "ctrl+m ctrl+l",
+				"command": "editor.unfoldAll",
+				"when": "editorTextFocus"
+			},
             {
                 "key": "ctrl+-",
                 "command": "workbench.action.navigateBack"
