@@ -78,6 +78,10 @@
             },
             {
                 "key": "ctrl+w",
+                "command": "editor.action.smartSelect.expand"
+            },
+            {
+                "key": "shift+alt+.",
                 "command": "editor.action.addSelectionToNextFindMatch"
             },
             {
