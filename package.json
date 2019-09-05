@@ -248,6 +248,11 @@
                 "key": "alt+e",
                 "command": "toggleFindRegex",
                 "when": "editorFocus"
+            },
+            {
+                "key": "ctrl+delete",
+                "command": "deleteWordStartRight",
+                "when": "editorTextFocus && !editorReadonly"
             }
         ]
     },
