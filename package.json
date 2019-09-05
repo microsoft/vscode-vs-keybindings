@@ -78,7 +78,13 @@
             },
             {
                 "key": "ctrl+w",
-                "command": "editor.action.addSelectionToNextFindMatch"
+                "command": "editor.action.smartSelect.expand",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "shift+alt+.",
+                "command": "editor.action.addSelectionToNextFindMatch",
+                "when": "editorFocus"
             },
             {
                 "key": "ctrl+alt+space",
