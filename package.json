@@ -259,6 +259,11 @@
                 "key": "ctrl+delete",
                 "command": "deleteWordStartRight",
                 "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+]",
+                "command": "editor.action.jumpToBracket",
+                "when": "editorTextFocus"
             }
         ]
     },
