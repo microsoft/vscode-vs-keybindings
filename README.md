@@ -76,10 +76,10 @@ We may have missed a keyboard shortcut. If we did please help us out! It is very
 ```json
 {
     "mac": "<keyboard shortcut for mac>",
-    "linux": "<keyboard shortcut for linux",
-    "win": "<keyboard shortcut for windows",
+    "linux": "<keyboard shortcut for linux>",
+    "win": "<keyboard shortcut for windows>",
     "key": "<default keyboard shortcut>",
-    "command": "<name of the command in VS Code"
+    "command": "<name of the command in VS Code>"
 }
 ```
 
