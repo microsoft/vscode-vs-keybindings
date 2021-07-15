@@ -258,8 +258,12 @@
                 "key": "ctrl+delete",
                 "command": "deleteWordStartRight",
                 "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+alt+home",
+                "command": "workbench.action.keepEditor",
+                "when": "editorTextFocus"
             }
         ]
-
     }
 }
