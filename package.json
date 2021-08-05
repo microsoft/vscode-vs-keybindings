@@ -258,6 +258,26 @@
                 "key": "ctrl+delete",
                 "command": "deleteWordStartRight",
                 "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+shift+u",
+                "command": "editor.action.transformToUppercase",
+                "when": "editorTextFocus && !editorReadonly"
+            },  
+            {   
+                "key": "ctrl+u",
+                "command": "editor.action.transformToLowercase",
+                "when": "editorTextFocus && !editorReadonly"
+            },  
+            {   
+                "key": "ctrl+m ctrl+o",
+                "command": "editor.foldAll",
+                "when": "editorTextFocus && foldingEnabled"
+            },  
+            {   
+                "key": "ctrl+m ctrl+m",
+                "command": "editor.toggleFold",
+                "when": "editorTextFocus && foldingEnabled"
             }
         ]
 
