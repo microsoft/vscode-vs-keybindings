@@ -28,6 +28,15 @@
                 "command": "workbench.action.tasks.build"
             },
             {
+                "key": "ctrl+shift++(numpad plus) ",
+                "command": "editor.action.fontZoomIn"
+            },
+
+            {
+                "key": "ctrl+shift++(numpad minus) ",
+                "command": "editor.action.fontZoomOut"
+            },
+            {
                 "key": "ctrl+b",
                 "command": "workbench.debug.viewlet.action.addFunctionBreakpointAction"
             },
