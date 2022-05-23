@@ -1,7 +1,7 @@
 {
     "name": "vs-keybindings",
     "displayName": "Visual Studio Keymap",
-    "description": "Popular Visual Studio keybindings for VS Code.",
+    "description": "%description%",
     "version": "0.2.1",
     "publisher": "ms-vscode",
     "engines": {
