@@ -4,8 +4,6 @@ trigger:
   branches:
     include:
       - main
-  tags:
-    include: ['*']
 pr: none
 
 resources:
@@ -24,3 +22,5 @@ parameters:
 
 extends:
   template: azure-pipelines/extension/stable.yml@templates
+  parameters:
+    publishExtension: ${{ parameters.publishExtension }}
