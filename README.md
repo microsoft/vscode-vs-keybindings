@@ -57,6 +57,10 @@ This extension ports popular Visual Studio keyboard shortcuts to Visual Studio C
 | `toggleSearchRegex` | `alt+e`  | `alt+e` | `alt+e` |
 | `toggleFindRegex` | `alt+e`  | `alt+e` | `alt+e` |
 | `deleteWordStartRight` | `ctrl+delete`  | `ctrl+delete` | `ctrl+delete` |
+| `editor.action.transformToUppercase` | `ctrl+shift+u`  | `ctrl+shift+u` | `ctrl+shift+u` |
+| `editor.action.transformToLowercase` | `ctrl+u`  | `ctrl+u` | `ctrl+u` |
+| `editor.foldAll` | `ctrl+m ctrl+o`  | `ctrl+m ctrl+o` | `ctrl+m ctrl+o` |
+| `editor.toggleFold` | `ctrl+m ctrl+m`  | `ctrl+m ctrl+m` | `ctrl+m ctrl+m` |
 
 The full list of keyboard shortcuts including the `when` clause (e.g. while debugging) can be found in the extension's [contribution list](https://github.com/microsoft/vscode-vs-keybindings/blob/bf87aaa88a7e50e4c316ce3f4fe703c4443366ce/package.json#L26). 
 
